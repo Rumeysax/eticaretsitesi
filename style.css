@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    background-color: #E4E2DD;
+    min-height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#logo{
+    height: 80px;
+    width: 80px;
+}
+nav li{
+    float: left;
+    margin: 10px;
+    list-style: none;
+    font-family:sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+nav li a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    text-align: center;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+.icerik {
+    display: flex;
+    height: 100vh; /* ekran yüksekliği kadar genişlet  */
+}
+
+.boyut {
+    width: 33.33%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.boyut:hover {
+    opacity: 0.6;
+}
+
+.boyut img {
+    width: 100%; /* Çerçevenin tamamını kapsar */
+    height: 100%;
+    object-fit: cover; /* En boy oranını ve kapsamı korur */
+}
+.background_img img{
+    width: 100%;
+    height: 100vh;
+}
+.background_img h1{
+    text-align: center;
+    font-style: italic;
+}
+.store{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 5%;
+    height: 200px;
+}
+.product{
+    margin-left: 10%;
+    margin: 15px;
+    width: 340px;
+    height: 550px;
+    float: left;
+    background-color:#E4E2DD;
+}
+.product_img img{
+    margin: 10px;
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+}
+.description{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Yatayda ortala */
+    justify-content: center; /* Dikeyde ortala */
+}
+button{
+    width: 100px;
+    background-color: rgb(132, 169, 140);
+    border: 10px;
+    border-color:  rgb(132, 169, 140);
+    border-radius: 5px;
+}
+button p{
+    font-size: 15px;
+    padding: 5px;
+}
+button :hover{
+    background-color: rgb(47, 62, 70);
+    border-color:  rgb(47, 62, 70);
+    border-radius: 5px;
+}
+
+/* SEPETİM SAYFASI */
+.sepetim {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sepetim ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sepetim li {
+    margin-bottom: 10px;
+}
+
+.sepetim button {
+    padding: 10px;
+    background-color: #52796F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sepetim  button:hover {
+    background-color: #354F52;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
